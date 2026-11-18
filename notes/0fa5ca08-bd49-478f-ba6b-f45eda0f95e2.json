@@ -1,10 +1,10 @@
 {
   "id": "0fa5ca08-bd49-478f-ba6b-f45eda0f95e2",
   "title": "Financial consultant bot",
-  "content": "Build mcp server\n1 IKBR portfolio connector\n2 Quant risk & market tools\n\nAgent\n- orchestrator\n",
+  "content": "Build mcp server\n1 IKBR portfolio connector\n2 Quant risk & market tools\nAgent\n- orchestrator\n",
   "folder": "test folder",
   "color": "yellow",
   "pinned": false,
   "createdAt": "2026-11-18T00:50:57.728Z",
-  "updatedAt": "2026-11-18T00:52:58.594Z"
+  "updatedAt": "2026-11-18T00:53:01.554Z"
 }
