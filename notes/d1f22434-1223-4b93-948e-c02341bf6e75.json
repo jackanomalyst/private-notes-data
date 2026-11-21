@@ -1,10 +1,10 @@
 {
   "id": "d1f22434-1223-4b93-948e-c02341bf6e75",
   "title": "Raspberry pi project",
-  "content": " simulator \n\nEsp32 tamagotchi for yuling",
+  "content": "Graphic simulator \n\nEsp32 tamagotchi for yuling",
   "folder": "osed",
   "color": "blue",
   "pinned": false,
   "createdAt": "2026-11-17T11:21:14.979Z",
-  "updatedAt": "2026-11-21T00:30:24.535Z"
+  "updatedAt": "2026-11-21T00:30:26.970Z"
 }
