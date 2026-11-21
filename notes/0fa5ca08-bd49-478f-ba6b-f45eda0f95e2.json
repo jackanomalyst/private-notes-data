@@ -1,10 +1,10 @@
 {
   "id": "0fa5ca08-bd49-478f-ba6b-f45eda0f95e2",
   "title": "Opencode voice",
-  "content": "Build mcp server\n1 IKBR portfolio connector\n2 Quant risk & market tools\n\nAgent\n- orchestrator\n",
+  "content": "\n1. Give OpenCode a Voice Layer\n\n• Add a voice MCP plugin: Install a voice MCP integration such as jarvis-mcp (npx @shantur/jarvis-mcp --install-opencode-config --local and npx @shantur/jarvis-mcp --install-opencode-plugin --local) to stream voice messages into OpenCode sessions locally.\n• Wire up speech-to-text and text-to-speech: Pair browser speech recognition/synthesis or real-time voice APIs (such as ElevenLabs, Deepgram, or LiveKit) with your assistant workflow so it listens and speaks back.\n\n2. Define Persona, Rules, and Modular Skills\n\n• Create specialized skills: Add modular instructions in .opencode/skills/<name>/SKILL.md (project-level) or ~/.config/opencode/skills/<name>/SKILL.md (global) so OpenCode loads domain capabilities on demand rather than cramming everything into one prompt.\n• Set persona and guardrails: Write Markdown rules defining tone, permissions, and environment boundaries (for example, separating safe read/planning workflows from staging or execution agents).\n\n3. Connect Tools, MCP Servers, and Local Models\n\n• Add MCP servers and browser/web tools: Connect Model Context Protocol (MCP) servers for documentation or external services, and add automation tools like Playwright for browser control or web search tools.\n• Run local-first models if desired: You can run opencode serve backed by a local engine like OpenJarvis through an OpenAI-compatible provider so OpenCode handles tool execution while local models supply inference.\n• Plan before executing: Use OpenCode's agent/planning modes to review implementation plans before letting the agent modify files or run commands.\n\n",
   "folder": "Osai",
   "color": "yellow",
   "pinned": false,
   "createdAt": "2026-11-18T00:50:57.728Z",
-  "updatedAt": "2026-11-21T00:31:01.731Z"
+  "updatedAt": "2026-11-21T00:31:50.966Z"
 }
